@@ -27,13 +27,14 @@ ok
 
 # how to compile in c:
 
- gcc -Wall -Wextra -g -pedantic fd.c -o fileDisc
+    gcc -Wall -Wextra -g -pedantic fd.c -o fileDisc
 
 gcc is GNU c compiler
 -Wall  : Warnings all
 -Wextra : means extra warnings
 -g is debug
 
+other useful commands
 
 -fPIC : means Position Indipendent Code
 -fopenmp : openMP parallelism
